@@ -1,0 +1,120 @@
+#container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows:  1fr 1fr 3fr 1fr;
+    width:800px;
+    height:300px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif , Helvetica, sans-serif;  
+    color:#777;
+    background: #777;
+    font-size: 18px;
+
+}
+.header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    background: #ebebeb;
+    margin-bottom:-6px;
+    padding-top:7px;
+}
+
+.navbar {
+    grid-column: 1 / span 2;
+    grid-row: 2 ;
+    text-align: center;
+    background: #ebebeb;
+    padding-top: 5px;
+    
+}
+.aside {
+    grid-column: 2 ;
+    grid-row: 3 span 1;
+    text-align: center;
+    background: #ebebeb;
+    
+
+    
+}
+.section {
+    grid-column: 1;
+    grid-row: 3 / span 1;
+    text-align: center;
+    background: #ebebeb;
+    background-color: white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+
+}
+.ft {
+    grid-column: 1 /span 2;
+    grid-row: 4 ;
+    text-align: center;
+    background: #ebebeb;
+}
+
+#inside {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr;
+    color: gray;
+    background: #ebebeb;
+    
+
+    
+}
+#article2 {
+    display:grid;
+    grid-template-columns: 1fr 50fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    color:gray;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color:gray;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    padding: 10px;
+    
+
+
+}
+.title1 {
+    grid-column: 2 /span 1;
+    grid-row: 1 /span 1;
+    color: whitesmoke;
+    background-color:gray;
+}
+.headers {
+    grid-column: 2/ span 1;
+    grid-row: 2 /span 1;
+    color:gray;
+    background-color:#ebebeb;
+    padding-bottom: 10px;
+}    
+.para {
+    grid-column: 2/ span 1;
+    grid-row: 3 /span 1;
+    color: gray;
+    background-color:#ebebeb;
+   
+}
+
+
+h1 {
+    color: #777;
+    background: #ebebeb
+}
+p {
+    
+    color: #777;
+    background: #ebebeb
+}
+
